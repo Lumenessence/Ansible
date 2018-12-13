@@ -3,7 +3,7 @@
   become_method: su
   become: no
   order: inventory
-tasks:
-  - name: run this command and ignore the result
+  tasks:
+    - name: run this command and ignore the result
     shell: df -lh
     ignore_errors: False
