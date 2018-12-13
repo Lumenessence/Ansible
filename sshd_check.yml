@@ -2,6 +2,8 @@
 - hosts: sshd_service
   vars:
     sshd_port: 22
+    remote_user: root
+    become: no
   tasks:
   - name: Make sure that SSHD service is started
   ...
