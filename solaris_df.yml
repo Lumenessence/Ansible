@@ -1,5 +1,5 @@
 ---
-- hosts: solaris
+- hosts: all
   become_method: su
   become: no
   order: inventory
