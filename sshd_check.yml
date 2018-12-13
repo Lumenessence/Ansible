@@ -7,4 +7,3 @@
   tasks:
   - name: Make sure that SSHD service is started
   ...
-  
