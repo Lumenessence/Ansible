@@ -1,8 +1,9 @@
 ---
 - hosts: all
-  vars:
-    sshd_port: 22
+  
   tasks:
   - name: Make sure that SSHD service is started
     shell: "service sshd status"
+    ignore_errors: False
+    shell: "netstat -an | grep 22"
     ignore_errors: False
