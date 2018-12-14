@@ -1,6 +1,6 @@
 ---
 - hosts: all
   tasks:
-    - name: Make sure that SSHD service is started
+    - name: "run this command and ignore the result"
       ignore_errors: False
       shell: "service sshd status"
