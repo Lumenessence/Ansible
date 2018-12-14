@@ -2,6 +2,6 @@
 - hosts: all
   
   tasks:
-  - name: Make sure that SSHD service is started
-    ignore_errors: False
-    shell: "service sshd status"
+    - name: Make sure that SSHD service is started
+      ignore_errors: False
+      shell: "service sshd status"
