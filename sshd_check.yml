@@ -5,4 +5,3 @@
   - name: Make sure that SSHD service is started
     ignore_errors: False
     shell: "service sshd status"
-    shell: "netstat -an | grep 22"
