@@ -1,5 +1,5 @@
 ---
-- hosts: sshd_service
+- hosts: all
   vars:
     sshd_port: 22
     remote_user: root
