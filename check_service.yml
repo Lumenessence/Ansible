@@ -1,0 +1,7 @@
+---
+- name: Check sshd service 
+  hosts: all
+  service:
+    name: sshd
+    state: started
+  
