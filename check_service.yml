@@ -1,6 +1,5 @@
 ---
-- name: Check sshd service 
-  hosts: all
+- name: Start service sshd, if not started
   service:
     name: sshd
     state: started
